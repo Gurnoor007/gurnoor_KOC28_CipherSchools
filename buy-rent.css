@@ -1,0 +1,47 @@
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: grayscale(40%);
+    filter: blur(2px);
+  }
+
+  img {
+	width: 370px;
+	height: 290px;
+	border-radius: 25px;
+	filter: brightness(80%);
+  }
+  img:hover{
+	transform: scale(1.014);
+	filter: brightness(110%);
+  }
+  .container {
+	display: flex;
+	align-items: center;
+	justify-content: center
+  }
+  .image {
+	flex-basis: 10%;
+  }
+  .text {
+	padding-left: 10px;
+	color: #ffff;
+	font-size: 10px;
+  }
+  table {
+	column-gap: 20px;
+	margin-left: 170px;
+  }
+  button:hover{
+	transform: scale(1.25);
+	background-color: #175297;
+	border-color: #ff6600;
+  }
+
+
+
