@@ -1,7 +1,7 @@
 body{
-background-image: url(/background1.jpeg);
+background-image: url(background1.jpeg);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: cover; 
 }
 .topnav{
     background-color: rgba(255, 255, 255, 0);
